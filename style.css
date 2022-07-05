@@ -1,0 +1,12 @@
+*
+{
+   margin:0;
+   padding: 0; 
+}
+
+header {
+    background-image: url('background.jpg');
+    height: 100 vh;
+    background-size: cover;
+    background-position: center;
+}
