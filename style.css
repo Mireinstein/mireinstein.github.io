@@ -4,7 +4,7 @@
    padding: 0; 
 }
 
-header {
+body {
     background-image: url('background.jpg');
     height: 100 vh;
     background-size: cover;
