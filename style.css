@@ -68,8 +68,13 @@
   }
   
   .columns {
-    display: flex;
+    display: inline-flex;
+    margin-left: 2rem;
+
   }
+ .rows {
+  padding: 2rem;
+ }
   
   @media only screen and (min-width: 768px) {
     main {
