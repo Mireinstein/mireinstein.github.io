@@ -77,15 +77,15 @@
     width: 75%;
   }
   
-  
-  .columns {
-    display: inline-flex;
-    margin-left: 2rem;
-
+  #row1 {
+    display: inline-block;
+    width: 100%;
   }
- .rows {
-  padding: 2rem;
- }
+  
+  #row2 {
+    display: inline-block;
+    width: 100%;
+  }
   
   @media only screen and (min-width: 768px) {
     main {
