@@ -24,6 +24,17 @@
     background-color: #a493c0;
     padding: 10px;
   }
+
+  footer {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #a493c0;
+    padding-bottom: 3em;
+  }
+  
   
   nav a:visited,
   nav a:link, h1 {
@@ -32,8 +43,9 @@
   }
   
   nav > ul {
+    float: right;
     display: inline;
-    padding: 0;
+    padding-right: 3em;
   }
   
   nav > ul > li {
@@ -44,16 +56,11 @@
   
   main {
     display: block;
-    background-image: url("background.jpg");
     padding-top: 3em;
     padding-bottom: 3em;
     min-height: 85%;
   }
-  
-  footer {
-    padding: 15px;
-  }
-  
+
   aside,
   article {
     padding: 2em;
@@ -64,6 +71,7 @@
   }
   
   article {
+    padding-top: 5em;
     width: 75%;
   }
   
