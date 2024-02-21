@@ -108,4 +108,34 @@
     .columns-desktop {
       display: flex;
     }
+
+    /* New additions to improve layout */
+    th, td {
+      padding: 0.5em;
+      border: 1px solid #000;
+    }
+
+    caption {
+      font-weight: bold;
+      text-align: left;
+    }
+
+     /* Improve table layout */
+     table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+      /* Update the CSS for row 2 to use Flexbox */
+  #row2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  /* Adjust the table width to fill available space */
+  #row2 table {
+    width: 100%;
+  }
+
   }
