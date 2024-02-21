@@ -83,8 +83,9 @@
   }
   
   #row2 {
-    display: inline-block;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px; /* Adjust as needed */
   }
 
  div#project {
@@ -126,15 +127,8 @@
       border-collapse: collapse;
     }
 
-      /* Update the CSS for row 2 to use Flexbox */
-  #row2 {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-
   /* Adjust the table width to fill available space */
-  #row2 table {
+table {
     width: 100%;
   }
 
