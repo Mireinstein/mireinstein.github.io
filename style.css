@@ -92,10 +92,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
-  table, th, td {
-    border: 1px solid black;
-  }
   
   @media only screen and (min-width: 768px) {
     main {
@@ -120,16 +116,5 @@
       font-weight: bold;
       text-align: left;
     }
-
-     /* Improve table layout */
-     table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-
-  /* Adjust the table width to fill available space */
-table {
-    width: 100%;
-  }
 
   }
