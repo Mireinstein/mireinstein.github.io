@@ -188,3 +188,37 @@ article {
 .volunteering-item ul li {
   margin-bottom: 10px;
 }
+
+/* Courses Section Styles */
+.course-section {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-year {
+  font-size: 1.5em;
+  color: #0066cc;
+  margin-bottom: 10px;
+}
+
+.course-list {
+  list-style: none;
+  padding: 0;
+}
+
+.course-item {
+  margin-bottom: 10px;
+}
+
+.course-item a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.course-item a:hover {
+  text-decoration: underline;
+}
