@@ -1,19 +1,24 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
   height: 100%;
   background-image: url("site-background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  color: #333;
 }
 
 p {
-  margin: 0.5em 0 0.5em 0;
+  margin: 0.5em 0;
 }
 
 header {
@@ -24,16 +29,16 @@ header {
   width: 100%;
   background-color: #a493c0;
   padding: 10px;
+  z-index: 1000;
 }
 
 footer {
   display: block;
   position: relative;
-  top: 0;
-  left: 0;
   width: 100%;
   background-color: #a493c0;
   padding-bottom: 3em;
+  text-align: center;
 }
 
 nav a:visited,
@@ -53,12 +58,12 @@ nav > ul > li {
   display: inline-block;
   list-style: none;
   padding-right: 3em;
-  margin: 0 5px 0 5px;
+  margin: 0 5px;
 }
 
 main {
   display: block;
-  padding-top: 3em;
+  padding-top: 5em;
   padding-bottom: 3em;
   min-height: 85%;
 }
@@ -79,19 +84,59 @@ article {
 
 @media only screen and (min-width: 768px) {
   main {
-      display: flex;
+    display: flex;
   }
 
   aside {
-      margin-left: 2%;
+    margin-left: 2%;
   }
+}
+
+/* Courses Section Styles */
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.course-section {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-year {
+  font-size: 1.5em;
+  color: #0066cc;
+  margin-bottom: 10px;
+}
+
+.course-list {
+  list-style: none;
+  padding: 0;
+}
+
+.course-item {
+  margin-bottom: 10px;
+}
+
+.course-item a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.course-item a:hover {
+  text-decoration: underline;
 }
 
 /* Experience Section Styles */
 #experience {
   max-width: 800px;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.8); /* Slight background color for readability */
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 10px;
 }
@@ -123,7 +168,7 @@ article {
 #education {
   max-width: 800px;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.8); /* Slight background color for readability */
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 10px;
 }
@@ -161,7 +206,7 @@ article {
 #volunteering {
   max-width: 800px;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.8); /* Slight background color for readability */
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 10px;
 }
@@ -187,38 +232,4 @@ article {
 
 .volunteering-item ul li {
   margin-bottom: 10px;
-}
-
-/* Courses Section Styles */
-.course-section {
-  max-width: 800px;
-  margin: 20px auto;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.course-year {
-  font-size: 1.5em;
-  color: #0066cc;
-  margin-bottom: 10px;
-}
-
-.course-list {
-  list-style: none;
-  padding: 0;
-}
-
-.course-item {
-  margin-bottom: 10px;
-}
-
-.course-item a {
-  color: #0066cc;
-  text-decoration: none;
-}
-
-.course-item a:hover {
-  text-decoration: underline;
 }
