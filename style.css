@@ -118,3 +118,41 @@ article {
 .experience-item ul li {
   margin-bottom: 10px;
 }
+
+/* Education Section Styles */
+#education {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8); /* Slight background color for readability */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.education-item {
+  margin-bottom: 30px;
+}
+
+.education-item h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.education-item h3 {
+  margin: 10px 0 0 0;
+  font-size: 1.2em;
+  color: #666;
+}
+
+.education-item p {
+  margin: 5px 0;
+}
+
+.education-item ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.education-item ul li {
+  margin-bottom: 5px;
+}
