@@ -1,116 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Admire Madyira</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <style>
-      h1 {
-        font-size: 3em;
-        margin-top: 0.5em;
-      }
-
-      .banner {
-        max-width: 100%;
-      }
-
-      .sub-title {
-        font-size: 1.5em;
-        color: #fff;
-        padding: 10px;
-  
-      }
-    </style>
-  </head>
-  <body>
+</head>
+<body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="Courses.html">Courses</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="education.html">Education</a></li>
-          <li><a href="experience.html">Experience</a></li>
-          <li><a href="volunteering.html">Volunteering</a></li>
-        </ul>
-      </nav>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="Courses.html">Courses</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="volunteering.html">Volunteering</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-    <div id="sections">  
-    <div id="project">
-      <article>
-        <h2>Self-driving Car - Barnard Programming Labs, J2022</h2>
-      In this project, I used python to write code that provides control to a self driving agent in a simulator called Carla. This agent respects traffic lights and other vehicles, navigates scenes making random
-      choices when facing an intersection.
-     </article> 
-    
-      <aside><iframe width="500" height="300"
-        src="https://www.youtube.com/embed/3A_FJNcRwYc" title="Building a Self Driving Car in Carla" frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-      </iframe>
-      </aside>
-    </div>
+        <div id="sections">
+            <div class="project">
+                <aside>
+                    <iframe width="500" height="300" src="https://www.youtube.com/embed/3A_FJNcRwYc" title="Building a Self Driving Car in Carla" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </aside>
+                <article>
+                    <h2>Self-driving Car - Barnard Programming Labs, J2022</h2>
+                    <ul>
+                        <li>Used Python to write code that provides control to a self-driving agent in a simulator called Carla.</li>
+                        <li>This agent respects traffic lights and other vehicles.</li>
+                        <li>It navigates scenes making random choices when facing an intersection.</li>
+                    </ul>
+                </article>
+            </div>
 
-    <hr>
-    <br>
-    <br> 
-    <div id="project">
-      <article>
-        <h2>Cow Dung Battery - 2018</h2>
-      Motivated by frequent power cuts that happen in Zimbabwe, I built a cow dung battery from the ground up.
-      The battery could power a light bulb using aluminium cans, carbon electrodes and cow dung(as the electrolyte).
-      Although this battery could not power a light bulb for a very long time, it motivated other 20+ students in my village to build similar batteries and to use them to study for their Advanced Level Exams.
-     </article> 
-    
-      <aside><img src="cow_dung.jpg" style="height:500; width: 300; " alt="cow_dung Battery image">
-       </aside>
-    </div>  
-    
-      <hr>
-      <br>
-      <br>
-     <div id="project">
-        <article>
-          <h2>Bull's eye puzzle - 2022</h2>
-          Used Depth First Search to find a solution to the bull's eye puzzle.
-          In this puzzle, the player can only move from blue arrows to red arrows or from red arrows to blue arrows.
-           The goal is to hit the bull's eye.
-       </article> 
-      
-        <aside><img src="bull_eye.jpg" style="height:500; width: 300; " alt="Puzzle image">
-        </aside>
-      </div>  
-      <hr>
-      <br>
-      <br> 
-      <div id="project">
-        <article>
-          <h2>7 X 7 Grid Puzzle - 2022</h2>
-        In this puzzle, a player can only move the number of steps which are specified on a square grid and only in the foward direction. The goal is to reach the green square grid.
-        If the player is unsuccessful in finding a solution, the puzzle solver uses Depth First search to calculate a path from the starting position to the green square.
-       </article> 
-      
-        <aside><img src="puzzle.png" style="height:500; width: 300; " alt="7 by 7 Grid Puzzle">
-         </aside>
-      </div>  
+            <hr>
+            <div class="project">
+                <aside>
+                    <img src="cow_dung.jpg" alt="Cow Dung Battery image">
+                </aside>
+                <article>
+                    <h2>Cow Dung Battery - 2018</h2>
+                    <ul>
+                        <li>Motivated by frequent power cuts in Zimbabwe, built a cow dung battery from the ground up.</li>
+                        <li>The battery could power a light bulb using aluminum cans, carbon electrodes, and cow dung (as the electrolyte).</li>
+                        <li>Inspired over 20 students in the village to build similar batteries and use them to study for their Advanced Level Exams.</li>
+                    </ul>
+                </article>
+            </div>
 
-    </div>
+            <hr>
+            <div class="project">
+                <aside>
+                    <img src="bull_eye.jpg" alt="Bull's eye puzzle image">
+                </aside>
+                <article>
+                    <h2>Bull's Eye Puzzle - 2022</h2>
+                    <ul>
+                        <li>Applied Depth First Search algorithm to find a solution to the Bull's Eye puzzle.</li>
+                        <li>Player can only move from blue arrows to red arrows or from red arrows to blue arrows with the goal to hit the bull's eye.</li>
+                    </ul>
+                </article>
+            </div>
+
+            <hr>
+            <div class="project">
+                <aside>
+                    <img src="puzzle.png" alt="7 X 7 Grid Puzzle">
+                </aside>
+                <article>
+                    <h2>7 X 7 Grid Puzzle - 2022</h2>
+                    <ul>
+                        <li>Designed and implemented an intelligent solver for the challenging 7 X 7 Grid Puzzle.</li>
+                        <li>Player can only move the number of steps specified on a square grid and only in the forward direction, aiming to reach the green square grid.</li>
+                        <li>Used Depth First Search to compute optimal paths within the puzzle grid.</li>
+                    </ul>
+                </article>
+            </div>
+
+            <hr>
+            <div class="project">
+                <aside>
+                    <img src="placeholder.jpg" alt="Placeholder image">
+                </aside>
+                <article>
+                    <h2>Chromium Open-Source Contribution (In progress)</h2>
+                    <ul>
+                        <li>May 2024 - Present</li>
+                        <li>Currently familiarizing with the Chromium open-source codebase and development environment.</li>
+                        <li>Preparing to contribute to issue resolution, bug fixes, and feature enhancements within the Chromium project.</li>
+                        <li>Leveraging this opportunity to deepen understanding of web browser architecture, software development best practices, and collaborative workflows in open-source communities.</li>
+                        <li>Skills: Open-source collaboration, Version Control</li>
+                    </ul>
+                </article>
+            </div>
+
+            <hr>
+            <div class="project">
+                <aside>
+                    <img src="placeholder.jpg" alt="Placeholder image">
+                </aside>
+                <article>
+                    <h2>Movie Recommendation System (In Progress)</h2>
+                    <ul>
+                        <li>Nov 2023 - Present</li>
+                        <li>Developing an easy-to-use Web Application to recommend new movies based on users' review history and preferences (actors, genre, title, etc).</li>
+                        <li>Users rate a few movies, and the algorithm ranks movies based on similarity scores with the user's profile to recommend the top-ranked movies.</li>
+                        <li>Skills: PostgreSQL, Database Design, Data Scraping</li>
+                    </ul>
+                </article>
+            </div>
+
+            <hr>
+            <div class="project">
+                <aside>
+                    <img src="placeholder.jpg" alt="Placeholder image">
+                </aside>
+                <article>
+                    <h2>Eco-Power Innovation: Cow Dung Battery</h2>
+                    <ul>
+                        <li>Aug 2017 - Nov 2020</li>
+                        <li>Associated with Gutu High School</li>
+                        <li>Embarked on an ambitious endeavor to develop a sustainable energy solution amidst frequent power outages in Zimbabwe.</li>
+                        <li>Engineered a Cow Dung Battery utilizing unconventional materials like aluminum cans and carbon electrodes, aimed at providing illumination for simple lights.</li>
+                        <li>Despite limited success in sustaining long-term, large-scale power output, the project served as a valuable learning experience, fostering innovation and environmental awareness.</li>
+                        <li>Inspired over 20 students in the community to engage in similar projects, demonstrating the power of experimentation and learning from failure in the pursuit of sustainable technology solutions.</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
     </main>
     <footer>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="Courses.html">Courses</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="education.html">Education</a></li>
-          <li><a href="experience.html">Experience</a></li>
-          <li><a href="volunteering.html">Volunteering</a></li>
-        </ul>
-      </nav>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="Courses.html">Courses</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="volunteering.html">Volunteering</a></li>
+            </ul>
+        </nav>
     </footer>
-  </body>
+</body>
 </html>
