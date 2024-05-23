@@ -283,3 +283,11 @@ h1 {
     margin-bottom: 1em;
   }
 }
+
+.favicon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
