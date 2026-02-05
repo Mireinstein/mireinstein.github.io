@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admire Madyira - Portfolio</title>
+  <script>
+    // GitHub Pages SPA fallback: redirects /freelance → /?freelance
+    // so that index.html loads and restores the path via history.replaceState
+    var l = window.location;
+    l.replace(
+      l.pathname.slice(0, 1) +
+      '?' + encodeURIComponent(l.pathname.slice(1)) +
+      l.search + l.hash
+    );
+  </script>
+</head>
+<body></body>
+</html>

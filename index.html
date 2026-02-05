@@ -20,6 +20,14 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- SPA path restoration: reads path saved by 404.html, restores via replaceState before React mounts -->
+    <script>
+      (function(l){
+        var s = l.search;
+        var q = decodeURIComponent(s ? s.slice(1) : '');
+        if(s) history.replaceState({p: q}, '', l.pathname + q + l.hash);
+      })(window.location);
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
