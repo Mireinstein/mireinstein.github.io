@@ -5,11 +5,13 @@
 
 // Node modules
 import { useRef, useEffect } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import PropTypes from 'prop-types'
 
 const Navbar = ({ navOpen, theme, toggleTheme }) => {
     const lastActiveLink = useRef()
     const activeBox = useRef()
+    const location = useLocation()
 
     const initActiveBox = () => {
         if (lastActiveLink.current) {
@@ -43,39 +45,52 @@ const Navbar = ({ navOpen, theme, toggleTheme }) => {
     const navItems = [
         {
             label: "Home",
-            link: '#home',
+            link: '/',
+            hash: '#home',
             className: "nav-link active",
             ref: lastActiveLink,
         },
         {
             label: "About",
-            link: '#about',
+            link: '/',
+            hash: '#about',
             className: "nav-link",
         },
         {
             label: "Skills",
-            link: '#skills',
+            link: '/',
+            hash: '#skills',
             className: "nav-link",
 
         },
         {
             label: "Projects",
-            link: '#projects',
+            link: '/',
+            hash: '#projects',
             className: "nav-link",
         },
         {
+            label: "Freelance",
+            link: '/freelance',
+            className: "nav-link",
+            isRoute: true,
+        },
+        {
             label: "Courses",
-            link: '#courses',
+            link: '/',
+            hash: '#courses',
             className: "nav-link",
         },
         {
             label: "Certifications",
-            link: '#certifications',
+            link: '/',
+            hash: '#certifications',
             className: "nav-link",
         },
         {
             label: "Contact",
-            link: '#contact',
+            link: '/',
+            hash: '#contact',
             className: "nav-link",
         }
     ]
@@ -83,17 +98,54 @@ const Navbar = ({ navOpen, theme, toggleTheme }) => {
     return (
         <nav className={`navbar ${navOpen ? 'active' : ''}`}>
             {
-                navItems.map(({ label, link, className, ref }, key) => (
-                    <a
-                        href={link}
-                        className={className}
-                        key={key}
-                        ref={ref}
-                        onClick={activeCurrentLink}
-                    >
-                        {label}
-                    </a>
-                ))
+                navItems.map(({ label, link, hash, className, ref, isRoute }, key) => {
+                    // For the Freelance route, always use Link
+                    if (isRoute) {
+                        return (
+                            <Link
+                                to={link}
+                                className={className}
+                                key={key}
+                                ref={ref}
+                                onClick={activeCurrentLink}
+                            >
+                                {label}
+                            </Link>
+                        )
+                    }
+
+                    // For hash links: if on home page, use hash; otherwise navigate to home with hash
+                    const isHomePage = location.pathname === '/'
+
+                    if (isHomePage && hash) {
+                        // On home page - use regular hash link for smooth scrolling
+                        return (
+                            <a
+                                href={hash}
+                                className={className}
+                                key={key}
+                                ref={ref}
+                                onClick={activeCurrentLink}
+                            >
+                                {label}
+                            </a>
+                        )
+                    } else {
+                        // On other pages - use Link to navigate to home with hash
+                        const destination = hash ? `/${hash}` : link
+                        return (
+                            <Link
+                                to={destination}
+                                className={className}
+                                key={key}
+                                ref={ref}
+                                onClick={activeCurrentLink}
+                            >
+                                {label}
+                            </Link>
+                        )
+                    }
+                })
             }
 
             {/* Theme Toggle Button */}

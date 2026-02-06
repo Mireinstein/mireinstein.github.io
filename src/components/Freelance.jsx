@@ -97,7 +97,7 @@ const Freelance = () => {
             </h2>
 
             <p className="text-base md:text-lg max-w-[55ch] mx-auto mb-8">
-              From AI-powered solutions to polished web apps, I bring Microsoft-grade engineering discipline to every project — big or small.
+              From AI-powered solutions to polished web apps, I bring industry-grade engineering discipline to every project — big or small.
             </p>
 
             <div className="flex items-center justify-center gap-3 flex-wrap">
