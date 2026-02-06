@@ -6,7 +6,7 @@
 const experiences = [
   {
     company: "Microsoft",
-    icon: "business",
+    logo: "./images/microsoft-logo.svg",
     totalDuration: "2 yrs 10 mos",
     location: "Redmond, Washington",
     roles: [
@@ -38,7 +38,7 @@ const experiences = [
   },
   {
     company: "Columbia University",
-    icon: "school",
+    logo: "./images/columbia-logo.png",
     totalDuration: "3 mos",
     location: "New York, United States",
     roles: [
@@ -54,7 +54,7 @@ const experiences = [
   },
   {
     company: "Google",
-    icon: "language",
+    logo: "./images/google-logo.svg",
     totalDuration: "10 mos",
     location: "Remote",
     roles: [
@@ -101,10 +101,12 @@ const Experience = () => {
             <div key={expIdx} className="reveal-up">
               {/* Company Header */}
               <div className="flex items-start gap-3 mb-4">
-                <div className="w-10 h-10 rounded-xl bg-sky-400/10 border border-sky-400/30 flex items-center justify-center shrink-0">
-                  <span className="material-symbols-rounded text-sky-500" style={{ fontSize: '20px' }}>
-                    {exp.icon}
-                  </span>
+                <div className="w-12 h-12 rounded-xl bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 flex items-center justify-center shrink-0 p-2">
+                  <img
+                    src={exp.logo}
+                    alt={`${exp.company} logo`}
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold">{exp.company}</h3>

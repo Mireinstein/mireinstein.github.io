@@ -40,7 +40,13 @@ const Hero = () => {
             Using Technology For Good
           </h2>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 flex-wrap">
+            <ButtonPrimary
+              label="Freelance Services"
+              icon="handshake"
+              href="/freelance"
+            />
+
             <ButtonPrimary
               label="Resume"
               icon="description"
