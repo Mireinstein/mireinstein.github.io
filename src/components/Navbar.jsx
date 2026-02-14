@@ -76,6 +76,12 @@ const Navbar = ({ navOpen, theme, toggleTheme }) => {
             isRoute: true,
         },
         {
+            label: "💝 Valentines",
+            link: '/valentines',
+            className: "nav-link",
+            isRoute: true,
+        },
+        {
             label: "Courses",
             link: '/',
             hash: '#courses',
