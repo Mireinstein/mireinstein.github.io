@@ -70,11 +70,21 @@ const SparkleTrail = () => {
 // ── Main component ────────────────────────────────────────────────────────────
 const Valentines = () => {
   const [stage, setStage] = useState('intro')   // intro → reveal → yes
-  const [noSize, setNoSize] = useState(1)
+  const [noPos, setNoPos] = useState({ x: null, y: null })
+  const noRef = useRef(null)
+
+  const runAway = () => {
+    const btnW = noRef.current?.offsetWidth  || 100
+    const btnH = noRef.current?.offsetHeight || 44
+    const maxX = window.innerWidth  - btnW - 16
+    const maxY = window.innerHeight - btnH - 16
+    setNoPos({
+      x: Math.floor(Math.random() * maxX),
+      y: Math.floor(Math.random() * maxY),
+    })
+  }
 
   const petals = Array.from({ length: 25 }, (_, i) => i)
-
-  const handleNoHover = () => setNoSize(s => Math.max(0.3, s * 0.75))
 
   return (
     <>
@@ -269,18 +279,27 @@ const Valentines = () => {
               </button>
 
               <button
-                onMouseEnter={handleNoHover}
+                ref={noRef}
+                onMouseEnter={runAway}
+                onClick={runAway}
                 style={{
                   padding: '0.5rem 1.5rem',
-                  fontSize: `${noSize}rem`,
+                  fontSize: '1rem',
                   fontWeight: '600',
-                  color: '#999',
+                  color: '#aaa',
                   background: 'transparent',
                   border: '1.5px solid #ccc',
                   borderRadius: '999px',
-                  cursor: 'default',
-                  transition: 'font-size 0.3s ease',
+                  cursor: 'not-allowed',
                   userSelect: 'none',
+                  // Once first hovered, break out of flow and roam freely
+                  ...(noPos.x !== null ? {
+                    position: 'fixed',
+                    left: noPos.x,
+                    top:  noPos.y,
+                    transition: 'left 0.15s cubic-bezier(0.34,1.56,0.64,1), top 0.15s cubic-bezier(0.34,1.56,0.64,1)',
+                    zIndex: 9998,
+                  } : {}),
                 }}
               >
                 No 🙅
