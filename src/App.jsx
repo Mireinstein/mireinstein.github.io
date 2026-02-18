@@ -25,7 +25,6 @@ import Contact from "./components/Contact"
 import Footer from './components/Footer'
 import Courses from './components/Courses'
 import Freelance from './components/Freelance'
-import Valentines from './components/Valentines'
 
 // Scroll to top on route change
 const ScrollToTop = () => {
@@ -104,7 +103,6 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<MainPage theme={theme} />} />
                     <Route path="/freelance" element={<Freelance />} />
-                    <Route path="/valentines" element={<Valentines />} />
                 </Routes>
             </main>
             <Footer />
