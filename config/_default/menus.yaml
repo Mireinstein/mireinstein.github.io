@@ -1,5 +1,5 @@
 main:
-  - name: About
+  - name: Bio
     url: /
     weight: 10
   - name: Experience
@@ -11,3 +11,6 @@ main:
   - name: Courses
     url: courses/
     weight: 40
+  - name: Research
+    url: research/
+    weight: 50

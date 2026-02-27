@@ -19,9 +19,8 @@ links:
 
 interests:
   - Artificial Intelligence & Machine Learning
-  - Systems & Browser Architecture
-  - Algorithms & Mathematics
-  - Large Language Models
+  - DevOps
+  - Computational & Mathematical Engineering
 
 education:
   - area: BA Computer Science
@@ -134,4 +133,4 @@ superuser: true
 highlight_name: true
 ---
 
-Hi, I'm Admire — a dedicated problem solver with a deep fascination for how systems are built, optimized, and pushed to their limits and used for good. I'm a full-stack developer with experience spanning artificial intelligence, machine learning, and web development. My background extends into browser architecture and Large Language Models. Whether developing algorithms, building AI and ML models, or creating data-driven applications, I'm motivated by the drive to learn, build, and innovate.
+Hi, I'm Admire — a dedicated problem solver with a deep fascination for how systems are built, optimized, and pushed to their limits. My background is in DevOps — building and maintaining the release, update, and deployment infrastructure that delivers Copilot, Edge, and WebView2 to billions of users worldwide. I also have experience in artificial intelligence and machine learning — researching Copilot safety, reliability, and robustness to malicious attacks like prompt injection. In every team I've worked with, I've been praised for two things: being a quick learner and getting things done.
