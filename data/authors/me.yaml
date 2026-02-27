@@ -1,9 +1,12 @@
----
-title: Admire Madyira
-first_name: Admire
-last_name: Madyira
+name:
+  display: "Admire Madyira"
+  given: "Admire"
+  family: "Madyira"
 
-role: Software Engineer, Microsoft AI
+role: "Software Engineer, Microsoft AI"
+
+superuser: true
+is_owner: true
 
 affiliations:
   - name: Microsoft
@@ -16,6 +19,15 @@ links:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/admire-madyira/
     label: LinkedIn
+
+bio: >
+  Hi, I'm Admire — a dedicated problem solver with a deep fascination for how
+  systems are built, optimized, and pushed to their limits and used for good.
+  I'm a full-stack developer with experience spanning artificial intelligence,
+  machine learning, and web development. My background extends into browser
+  architecture and Large Language Models. Whether developing algorithms,
+  building AI and ML models, or creating data-driven applications, I'm
+  motivated by the drive to learn, build, and innovate.
 
 interests:
   - Artificial Intelligence & Machine Learning
@@ -42,21 +54,13 @@ work:
       - Copilot
   - role: Software Engineer Intern, Generative AI
     org: Microsoft
-    start: 'Aug 2023'
-    end: 'Aug 2025'
+    start: 'May 2024'
+    end: 'Aug 2024'
     summary: Copilot Reliability, Security, and Safety Research.
     tags:
       - Machine Learning
       - AI
       - Safety Research
-  - role: Mathematics Grader
-    org: Amherst College
-    start: 'Jan 2024'
-    end: 'May 2024'
-    summary: Evaluated and graded student assignments with accuracy and fairness. Provided constructive feedback and collaborated with faculty to ensure consistent grading standards.
-    tags:
-      - Mathematics
-      - Education
   - role: Software Engineer + PM, Search Optimization
     org: Microsoft
     start: 'May 2023'
@@ -65,6 +69,14 @@ work:
     tags:
       - C++
       - TypeScript
+  - role: Mathematics Grader
+    org: Amherst College
+    start: 'Jan 2024'
+    end: 'May 2024'
+    summary: Evaluated and graded student assignments with accuracy and fairness. Provided constructive feedback and collaborated with faculty to ensure consistent grading standards.
+    tags:
+      - Mathematics
+      - Education
   - role: Peer Tutor
     org: Amherst College
     start: 'Aug 2022'
@@ -104,34 +116,28 @@ skills:
   - name: Programming Languages
     items:
       - name: Python
-        description: 'AI and ML Development'
+        description: AI and ML Development
         icon: devicon/python
       - name: Java
-        description: 'App Development'
+        description: App Development
         icon: devicon/java
       - name: TypeScript
-        description: 'Web Development'
+        description: Web Development
         icon: devicon/typescript
       - name: C++
-        description: 'Systems Programming'
+        description: Systems Programming
         icon: devicon/cplusplus
   - name: Frameworks & Tools
     items:
       - name: NodeJS
-        description: 'Backend Development'
+        description: Backend Development
         icon: devicon/nodejs
       - name: React
-        description: 'Frontend Framework'
+        description: Frontend Framework
         icon: devicon/react
       - name: Azure
-        description: 'Cloud Computing'
+        description: Cloud Computing
         icon: devicon/azure
       - name: MySQL
-        description: 'Databases'
+        description: Databases
         icon: devicon/mysql
-
-superuser: true
-highlight_name: true
----
-
-Hi, I'm Admire — a dedicated problem solver with a deep fascination for how systems are built, optimized, and pushed to their limits and used for good. I'm a full-stack developer with experience spanning artificial intelligence, machine learning, and web development. My background extends into browser architecture and Large Language Models. Whether developing algorithms, building AI and ML models, or creating data-driven applications, I'm motivated by the drive to learn, build, and innovate.
