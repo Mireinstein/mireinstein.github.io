@@ -8,15 +8,9 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    title: "Intelligent Pacman bots",
-    tags: ["Adversarial Search", "Reinforcement Learning", "Python"],
-    link: "https://github.com/Mireinstein/AI",
-    website: ""
-  },
-  {
-    title: "Self-Driving Car",
-    tags: ["Algorithms", "Python"],
-    link: "https://www.youtube.com/watch?v=3A_FJNcRwYc",
+    title: "Grey Parrot",
+    tags: ["Python", "JavaScript", "FastAPI", "WebSocket", "Chrome Extension", "AI"],
+    link: "https://github.com/Mireinstein/Grey-Parrot",
     website: ""
   }
 ];
