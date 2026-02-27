@@ -1,6 +1,7 @@
 ---
 title: 'Computer Systems'
 date: '2022-01-01'
+weight: 70
 tags:
   - Computer Science
 links:

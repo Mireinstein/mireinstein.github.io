@@ -1,6 +1,7 @@
 ---
 title: 'Natural Language Processing'
 date: '2025-01-01'
+weight: 2
 tags:
   - Computer Science
 links:

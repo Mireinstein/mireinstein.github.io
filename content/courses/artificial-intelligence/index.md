@@ -1,6 +1,7 @@
 ---
 title: 'Artificial Intelligence'
 date: '2023-09-01'
+weight: 1
 tags:
   - Computer Science
 links:

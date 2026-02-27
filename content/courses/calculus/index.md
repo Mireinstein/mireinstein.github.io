@@ -1,6 +1,7 @@
 ---
 title: 'Calculus I, II, III'
 date: '2021-09-01'
+weight: 90
 tags:
   - Computer Science
 links:

@@ -4,11 +4,17 @@ date: 2024-01-01
 type: landing
 
 sections:
+  - block: resume-awards
+    content:
+      title: Certifications
+      username: me
   - block: collection
     content:
       title: Technical Coursework
       subtitle: My present and past courses at Amherst College.
       count: 0
+      sort_by: Weight
+      sort_ascending: true
       filters:
         folders:
           - courses

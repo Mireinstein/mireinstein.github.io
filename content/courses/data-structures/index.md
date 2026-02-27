@@ -1,6 +1,7 @@
 ---
 title: 'Data Structures'
 date: '2021-09-01'
+weight: 80
 tags:
   - Computer Science
 links:

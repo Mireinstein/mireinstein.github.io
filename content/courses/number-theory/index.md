@@ -1,6 +1,7 @@
 ---
 title: 'Number Theory'
 date: '2023-01-01'
+weight: 40
 tags:
   - Computer Science
 links:

@@ -1,6 +1,7 @@
 ---
 title: 'Machine Learning'
 date: '2023-01-01'
+weight: 3
 tags:
   - Computer Science
 links:

@@ -1,6 +1,7 @@
 ---
 title: 'Abstract Algebra'
 date: '2023-09-01'
+weight: 30
 tags:
   - Computer Science
 links:

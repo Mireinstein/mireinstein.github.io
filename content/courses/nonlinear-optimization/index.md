@@ -1,6 +1,7 @@
 ---
 title: 'Nonlinear Optimization'
 date: '2025-01-01'
+weight: 10
 tags:
   - Computer Science
 links:

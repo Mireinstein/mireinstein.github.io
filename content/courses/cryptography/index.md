@@ -1,6 +1,7 @@
 ---
 title: 'Cryptography'
 date: '2023-01-01'
+weight: 50
 tags:
   - Computer Science
 links:
