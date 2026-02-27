@@ -1,0 +1,72 @@
+hugoblox:
+  schema: "2.0"
+
+  identity:
+    name: "Admire Madyira"
+    organization: ""
+    type: person
+    tagline: "Software Engineer · AI/ML"
+    description: "Software Engineer at Microsoft AI. Building things that matter."
+    social:
+      twitter: ""
+
+  theme:
+    mode: system
+    pack: "default"
+    colors:
+      primary: ""
+      secondary: ""
+      neutral: ""
+
+  typography:
+    font: "sans"
+    size: "md"
+
+  layout:
+    radius: "md"
+    spacing: "comfortable"
+    avatar_shape: circle
+
+  header:
+    enable: true
+    style: navbar
+    sticky: true
+    align: center
+    search: true
+    theme_toggle: true
+    theme_picker: false
+    language_switcher: false
+    cta:
+      enable: false
+
+  footer:
+    style: minimal
+    language_switcher: false
+    text: ""
+
+  copyright:
+    notice: "© {year} {name}"
+
+  content:
+    math:
+      enable: false
+    toc:
+      enable: false
+    reading_time:
+      enable: false
+
+  search:
+    enable: true
+
+  comments:
+    enable: false
+
+  analytics:
+    google:
+      measurement_id: ""
+
+  privacy:
+    enable: false
+
+  debug:
+    enable: false

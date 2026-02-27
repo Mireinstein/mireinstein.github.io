@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technical Coursework | Admire Madyira</title>
+    <link>http://localhost:1313/courses/</link>
+      <atom:link href="http://localhost:1313/courses/index.xml" rel="self" type="application/rss+xml" />
+    <description>Technical Coursework</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/logo_hu_d614bcc9a4e2021c.png</url>
+      <title>Technical Coursework</title>
+      <link>http://localhost:1313/courses/</link>
+    </image>
+    
+    <item>
+      <title>Natural Language Processing</title>
+      <link>http://localhost:1313/courses/nlp/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonlinear Optimization</title>
+      <link>http://localhost:1313/courses/nonlinear-optimization/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/nonlinear-optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Abstract Algebra</title>
+      <link>http://localhost:1313/courses/abstract-algebra/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/abstract-algebra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>http://localhost:1313/courses/artificial-intelligence/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryptography</title>
+      <link>http://localhost:1313/courses/cryptography/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/cryptography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>http://localhost:1313/courses/machine-learning/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Number Theory</title>
+      <link>http://localhost:1313/courses/number-theory/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/number-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithms</title>
+      <link>http://localhost:1313/courses/algorithms/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Systems</title>
+      <link>http://localhost:1313/courses/computer-systems/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/computer-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calculus I, II, III</title>
+      <link>http://localhost:1313/courses/calculus/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/calculus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Structures</title>
+      <link>http://localhost:1313/courses/data-structures/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/data-structures/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

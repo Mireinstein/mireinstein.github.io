@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FastAPI | Admire Madyira</title>
+    <link>http://localhost:1313/tags/fastapi/</link>
+      <atom:link href="http://localhost:1313/tags/fastapi/index.xml" rel="self" type="application/rss+xml" />
+    <description>FastAPI</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/logo_hu_d614bcc9a4e2021c.png</url>
+      <title>FastAPI</title>
+      <link>http://localhost:1313/tags/fastapi/</link>
+    </image>
+    
+    <item>
+      <title>Grey Parrot</title>
+      <link>http://localhost:1313/projects/grey-parrot/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/grey-parrot/</guid>
+      <description>&lt;p&gt;Real-time AI bidirectional speech translation integrated as a Chrome extension sidebar in Amazon Connect&amp;rsquo;s CCP interface. Enables live translated transcripts during calls, supporting 12+ languages.&lt;/p&gt;
+&lt;p&gt;Built with Deepgram Live API for speech-to-text, Google Translate for translation, a FastAPI backend, and AudioWorklet for real-time PCM audio processing. No hardware splitters required — fully browser-based deployment.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
