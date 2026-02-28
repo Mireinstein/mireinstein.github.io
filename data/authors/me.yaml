@@ -112,6 +112,69 @@ work:
       - Mobile Dev
       - Web Dev
 
+awards:
+  - title: Rhodes Scholarship Finalist
+    awarder: Rhodes Trust
+    date: '2025-11-01'
+    summary: Selected as a finalist for the Rhodes Scholarship.
+
+  - title: The Peter Burnett Howe Prize
+    awarder: Amherst College
+    date: '2025-05-01'
+    summary: Honoring excellence in prose fiction.
+
+  - title: The Walker Award in Mathematics and Statistics
+    awarder: Amherst College
+    date: '2025-05-01'
+    summary: Recognizing initiative, creativity, perseverance, and achievement in Mathematics and Statistics.
+
+  - title: The Walker Teaching Award
+    awarder: Amherst College
+    date: '2023-05-01'
+    summary: For accomplishment and promise in teaching and tutoring Mathematics or Statistics.
+
+  - title: The Meiklejohn Fellows Grant
+    awarder: Amherst College
+    date: '2022-01-01'
+    summary: $5,000 Amherst College grant for a 240+-hour unpaid/low-paid internship.
+
+  - title: AI & ML Engineering
+    awarder: Microsoft / Coursera
+    date: '2023-01-01'
+    url: https://www.coursera.org/professional-certificates/microsoft-ai-and-ml-engineering
+    certificate_url: https://www.coursera.org/professional-certificates/microsoft-ai-and-ml-engineering
+    summary: Professional certificate covering AI and machine learning engineering with Microsoft Azure.
+
+  - title: Koenig Scholarship Award
+    awarder: Amherst College
+    date: '2021-09-01'
+    summary: A merit-based, full scholarship awarded to five newly admitted students from Africa and Latin America, renewed annually for four years at Amherst College.
+
+  - title: Presidential and National Scholarship
+    awarder: Office of the President of Zimbabwe
+    date: '2020-01-01'
+    summary: Fully funded award covering tuition, stipend, and travel for high-achieving, underprivileged students for study abroad.
+
+  - title: Top Student Advanced Level
+    awarder: Zimbabwe School Examination Council
+    date: '2020-01-01'
+    summary: Ranked as the top student nationally out of over 50,000 students in university-qualifying examinations (30 points), after self-teaching the entire curriculum from home.
+
+  - title: Top Student (5 Years Running)
+    awarder: Gutu High School
+    date: '2019-01-01'
+    summary: Top student for 5 consecutive years (2014–2019).
+
+  - title: Best Science Project
+    awarder: Provincial Annual Science, Sports and Arts Festival (PASSAF)
+    date: '2018-11-01'
+    summary: Awarded for the best science project in the province of Masvingo, Zimbabwe, for attempting to solve electricity shortages using cow dung.
+
+  - title: Top Student Ordinary Level
+    awarder: Gutu Development Association
+    date: '2018-03-01'
+    summary: Best student in the ZIMSEC O-level National Examinations in the Rural Secondary Schools in Masvingo Province.
+
 skills:
   - name: Programming Languages
     items:

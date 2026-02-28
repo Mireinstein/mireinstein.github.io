@@ -6,7 +6,7 @@ type: landing
 sections:
   - block: resume-awards
     content:
-      title: Certifications
+      title: Awards & Certifications
       username: me
   - block: collection
     content:

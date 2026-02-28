@@ -11,9 +11,6 @@ sections:
   - block: resume-biography-3
     content:
       username: me
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
       headings:
         about: ''
         education: ''
@@ -27,4 +24,8 @@ sections:
       avatar:
         size: medium
         shape: circle
+  - block: resume-awards
+    content:
+      title: Honors & Awards
+      username: me
 ---
