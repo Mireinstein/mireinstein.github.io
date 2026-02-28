@@ -14,6 +14,11 @@ sections:
       date_format: 'January 2006'
       is_education_first: false
 
+  - block: resume-awards
+    content:
+      title: Honors & Awards
+      username: me
+
   - block: resume-skills
     content:
       title: Skills & Expertise

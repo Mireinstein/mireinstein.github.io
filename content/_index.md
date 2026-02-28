@@ -24,8 +24,4 @@ sections:
       avatar:
         size: medium
         shape: circle
-  - block: resume-awards
-    content:
-      title: Honors & Awards
-      username: me
 ---
