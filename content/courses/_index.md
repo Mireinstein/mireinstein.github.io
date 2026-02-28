@@ -4,10 +4,6 @@ date: 2024-01-01
 type: landing
 
 sections:
-  - block: resume-awards
-    content:
-      title: Awards & Certifications
-      username: me
   - block: collection
     content:
       title: Technical Coursework
