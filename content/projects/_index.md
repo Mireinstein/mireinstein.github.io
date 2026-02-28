@@ -9,6 +9,8 @@ sections:
       title: Selected Projects
       subtitle: Things I particularly enjoyed building.
       count: 0
+      sort_by: Date
+      sort_ascending: false
       filters:
         folders:
           - projects
