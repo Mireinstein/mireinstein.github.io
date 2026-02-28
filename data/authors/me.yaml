@@ -198,9 +198,6 @@ skills:
       - name: React
         description: Frontend Framework
         icon: devicon/react
-      - name: Azure
-        description: Cloud Computing
-        icon: devicon/azure
       - name: MySQL
         description: Databases
         icon: devicon/mysql
