@@ -33,6 +33,20 @@ timeout: 600000
 taxonomies:
   author: authors
   tag: tags
+outputFormats:
+  LLM:
+    mediaType: text/plain
+    baseName: llms
+    isPlainText: true
+    notAlternative: true
+    permalinkable: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - LLM
+
 markup:
   _merge: deep
   highlight:
