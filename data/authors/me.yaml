@@ -204,3 +204,9 @@ skills:
       - name: MySQL
         description: Databases
         icon: devicon/mysql
+      - name: Azure DevOps
+        description: DevOps & Release Engineering
+        icon: devicon/azuredevops
+      - name: CI/CD
+        description: Continuous Integration & Delivery
+        icon: devicon/githubactions
