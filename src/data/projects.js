@@ -20,4 +20,11 @@ export const projects = [
     tags: ["Chrome Extension", "Deepgram", "Python", "FastAPI"],
     url: "https://github.com/Mireinstein/Grey-Parrot",
   },
+  {
+    title: "Agnostic LLM Watermarking",
+    description:
+      "Research on prompt-based and token-level watermarking for LLM output, evaluating detection robustness against paraphrasing attacks.",
+    tags: ["Python", "NLP", "LLM Fine-Tuning", "MLOps"],
+    url: "https://github.com/Mireinstein/Agnostic-LLM-Watermarking",
+  },
 ]
