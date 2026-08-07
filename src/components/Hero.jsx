@@ -52,9 +52,7 @@ const Hero = () => {
           </ul>
         </motion.div>
         <motion.div variants={item} className="landing-hero__text">
-          <h1 className="landing-name">
-            Admire<br />Madyira
-          </h1>
+          <p className="section__eyebrow">About</p>
           <p className="landing-bio">
             Software Engineer at Microsoft working on Build, Release, Update, and
             Deployment infrastructure for Copilot &amp; Microsoft Edge. Previously
@@ -62,33 +60,14 @@ const Hero = () => {
             C++ for the Edge browser, and on applied ML research into Copilot
             safety and robustness to adversarial attacks such as prompt injection.
           </p>
+          <p className="landing-bio">
+            Outside of work, I care deeply about educational equity and have spent
+            my time and skills trying to improve access to education in my
+            communities.
+          </p>
+          <p className="landing-bio">I also love playing soccer.</p>
         </motion.div>
       </header>
-
-      <motion.div variants={item} className="landing-actions">
-        <a href="#projects" className="landing-cta landing-cta--primary">
-          Projects
-        </a>
-        <a
-          href="/resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="landing-cta landing-cta--secondary"
-        >
-          Resume
-        </a>
-      </motion.div>
-
-      <motion.div variants={item} className="landing-social">
-        <a
-          href="https://github.com/Mireinstein"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="landing-social__link"
-        >
-          GitHub
-        </a>
-      </motion.div>
     </>
   )
 }
