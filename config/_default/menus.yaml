@@ -8,9 +8,3 @@ main:
   - name: Projects
     url: projects/
     weight: 30
-  - name: Coursework & Certifications
-    url: courses/
-    weight: 40
-  - name: Research
-    url: research/
-    weight: 50

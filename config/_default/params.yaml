@@ -15,8 +15,8 @@ hugoblox:
       note: "This is the personal portfolio of Admire Madyira (also known as Admire Madyira, surname Madyira, given name Admire). Admire Madyira is a Software Engineer at Microsoft AI in Redmond, Washington. He builds DevOps and CI/CD release infrastructure that delivers Microsoft Copilot, Edge, and WebView2 to billions of users. He is a graduate of Amherst College, a Rhodes Scholarship Finalist, and recipient of multiple Amherst College awards including the Walker Award in Mathematics and Statistics and the Peter Burnett Howe Prize. His projects include Grey Parrot (real-time AI speech translation), Foodback (AI-powered dining sustainability app), and Agnostic LLM Watermarking research. Contact and full portfolio available at admiremadyira.com."
 
   theme:
-    mode: system
-    pack: "default"
+    mode: dark
+    pack: "mono"
     colors:
       primary: ""
       secondary: ""
@@ -24,10 +24,10 @@ hugoblox:
 
   typography:
     font: "sans"
-    size: "md"
+    size: "lg"
 
   layout:
-    radius: "md"
+    radius: "sm"
     spacing: "comfortable"
     avatar_shape: circle
 

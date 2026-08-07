@@ -1,0 +1,43 @@
+# Custom HugoBlox Theme Pack
+# Minimalist monochrome + single warm accent, inspired by timeundertensors.com/portfolio
+
+hugoblox:
+  meta:
+    format: "hugoblox-theme@1"
+    name: "Mono"
+    vendor: "user"
+    version: "1.0.0"
+    license: "MIT"
+    description: "Minimalist black/off-white with a single amber accent"
+
+  type: "dual"
+
+  light:
+    colors:
+      primary: "#b45309" # amber-700, single accent
+      secondary: "#78716c" # warm gray
+      neutral: "#1c1917"
+    surfaces:
+      background: "#ffffff"
+      foreground: "#1c1917"
+      header:
+        background: "#ffffff"
+        foreground: "#1c1917"
+      footer:
+        background: "#ffffff"
+        foreground: "#57534e"
+
+  dark:
+    colors:
+      primary: "#f59e0b" # amber-500, single accent
+      secondary: "#a8a29e" # warm gray
+      neutral: "#e7e5e4"
+    surfaces:
+      background: "#0a0a0a"
+      foreground: "#efece6"
+      header:
+        background: "#0a0a0a"
+        foreground: "#efece6"
+      footer:
+        background: "#0a0a0a"
+        foreground: "#a8a29e"
