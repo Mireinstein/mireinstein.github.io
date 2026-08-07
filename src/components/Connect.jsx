@@ -19,8 +19,9 @@ const Connect = () => {
     >
       <p className="section__eyebrow">Connect</p>
       <p className="landing-bio">
-        Open to conversations about DevOps, systems performance, and applied ML.
-        Reach out any of these ways.
+        Open to conversations about release engineering and infrastructure,
+        applied machine learning, and low-latency/quantitative systems. Reach
+        out any of these ways.
       </p>
       <div className="connect__row">
         <a href="mailto:admiretmadyira@gmail.com" className="landing-cta landing-cta--primary">
