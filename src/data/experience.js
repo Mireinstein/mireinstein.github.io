@@ -7,7 +7,7 @@ export const experience = [
     bullets: [
       "Build, release, update, and deployment infrastructure for Copilot and Microsoft Edge.",
     ],
-    tags: ["PowerShell", "C++", "Infrastructure as Code (IaC)", "Kubernetes", "Omaha", "Python", "Docker", "Bash", "CI/CD", "Azure", "GitHub Actions", "Kusto/ADX", "SRE"],
+    tags: ["PowerShell", "C++", "Infrastructure as Code (IaC)", "Terraform", "Kubernetes", "Omaha", "Python", "Docker", "Bash", "CI/CD", "Azure", "GitHub Actions", "Kusto/ADX", "SRE", "Observability", "Incident Management"],
   },
   {
     period: "Aug 2022 – May 2025",
@@ -29,7 +29,7 @@ export const experience = [
     bullets: [
       "Conducted research focused on Copilot reliability, security, and safety.",
     ],
-    tags: ["Scikit-Learn", "TypeScript", "Python", "Retrieval-Augmented Generation (RAG)", "Data Ingestion", "Machine Learning", "Artificial Intelligence (AI)", "Prompt Engineering"],
+    tags: ["Scikit-Learn", "TypeScript", "Python", "Retrieval-Augmented Generation (RAG)", "Data Ingestion", "SQL", "Machine Learning", "Artificial Intelligence (AI)", "Prompt Engineering"],
   },
   {
     period: "May 2023 – Aug 2023",

@@ -3,7 +3,7 @@ export const projects = [
     title: "QuantIQ",
     description:
       "Low-latency C++ limit order book paired with a Python backtesting engine and a RAG-based signal research pipeline.",
-    tags: ["C++", "Python", "scikit-learn", "Backtesting", "RAG"],
+    tags: ["C++", "Python", "scikit-learn", "Backtesting", "RAG", "Market Microstructure"],
     url: "https://github.com/Mireinstein/QuantIQ",
   },
   {
