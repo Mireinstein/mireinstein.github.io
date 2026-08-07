@@ -43,6 +43,9 @@ const Connect = () => {
         >
           GitHub
         </a>
+        <a href="#" className="landing-cta landing-cta--secondary" onClick={(e) => e.preventDefault()}>
+          Resume
+        </a>
       </div>
     </motion.section>
   )
