@@ -7,7 +7,7 @@ export const experience = [
     bullets: [
       "Build, release, update, and deployment infrastructure for Copilot and Microsoft Edge.",
     ],
-    tags: ["PowerShell", "C++", "CI/CD", "Azure", "Kusto/ADX", "GitHub Actions", "IaC", "Linux"],
+    tags: ["PowerShell", "C++", "Infrastructure as Code (IaC)", "Kubernetes", "Omaha", "Python", "Docker", "Bash", "CI/CD", "Azure", "GitHub Actions", "Kusto/ADX", "SRE"],
   },
   {
     period: "Aug 2022 – May 2025",
@@ -29,7 +29,7 @@ export const experience = [
     bullets: [
       "Conducted research focused on Copilot reliability, security, and safety.",
     ],
-    tags: ["Python", "Machine Learning", "Artificial Intelligence (AI)", "LLMs"],
+    tags: ["Scikit-Learn", "TypeScript", "Python", "Retrieval-Augmented Generation (RAG)", "Data Ingestion", "Machine Learning", "Artificial Intelligence (AI)", "Prompt Engineering"],
   },
   {
     period: "May 2023 – Aug 2023",
@@ -39,7 +39,7 @@ export const experience = [
     bullets: [
       "Worked on search optimization and latency reduction for the Microsoft Edge Browser.",
     ],
-    tags: ["C++", "TypeScript", "A/B Testing"],
+    tags: ["C++", "TypeScript", "Ultra Low Latency", "A/B Testing", "Performance Optimization"],
   },
   {
     period: "Jun 2022 – Aug 2022",
@@ -49,7 +49,7 @@ export const experience = [
     bullets: [
       "Conducted Reinforcement Learning research applied to self-driving cars.",
     ],
-    tags: ["Python", "Reinforcement Learning", "Scikit-Learn"],
+    tags: ["Python", "Scikit-Learn", "PyTorch", "TensorFlow", "Pandas", "NumPy", "Reinforcement Learning", "Simulation"],
   },
   {
     period: "Aug 2021 – May 2022",
@@ -59,7 +59,7 @@ export const experience = [
     bullets: [
       "Participated through the Google Africa Developer Scholarship program.",
     ],
-    tags: ["React.js", "Java"],
+    tags: ["React.js", "Java", "GraphQL", "PostgreSQL", "JavaScript", "Node.js", "REST APIs"],
   },
 ]
 
