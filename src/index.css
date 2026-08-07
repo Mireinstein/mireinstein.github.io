@@ -128,6 +128,24 @@ a { color: inherit; text-decoration: none; transition: color 160ms ease; }
   filter: grayscale(12%) contrast(1.04);
 }
 
+.hero-vcard {
+  margin: 1rem 0 0;
+  padding: 0.9rem 0 0;
+  border-top: 1px solid var(--border);
+  list-style: none;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.hero-vcard li {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  word-break: break-word;
+}
+
+.hero-vcard a { color: var(--text-muted); font-weight: 600; }
+.hero-vcard a:hover { color: var(--accent); }
+
 .landing-hero__text { display: grid; gap: 0.9rem; }
 
 .landing-kicker {

@@ -19,9 +19,29 @@ const Hero = () => {
             alt="Admire Madyira"
             className="landing-hero__photo"
           />
+          <ul className="hero-vcard">
+            <li>
+              <a href="https://github.com/microsoft" target="_blank" rel="noopener noreferrer">
+                @microsoft
+              </a>
+            </li>
+            <li>Redmond, WA</li>
+            <li>
+              <a href="mailto:admiretmadyira@gmail.com">admiretmadyira@gmail.com</a>
+            </li>
+            <li>
+              <a href="https://admiremadyira.com/" target="_blank" rel="noopener noreferrer">
+                admiremadyira.com
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/admire-madyira/" target="_blank" rel="noopener noreferrer">
+                in/admire-madyira
+              </a>
+            </li>
+          </ul>
         </motion.div>
         <motion.div variants={item} className="landing-hero__text">
-          <p className="landing-kicker">Redmond, Washington</p>
           <h1 className="landing-name">
             Admire<br />Madyira
           </h1>
@@ -57,15 +77,6 @@ const Hero = () => {
           className="landing-social__link"
         >
           GitHub
-        </a>
-        <span className="landing-social__sep" aria-hidden="true">&middot;</span>
-        <a
-          href="https://www.linkedin.com/in/admire-madyira/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="landing-social__link"
-        >
-          LinkedIn
         </a>
       </motion.div>
     </>
