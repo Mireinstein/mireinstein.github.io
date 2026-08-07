@@ -9,6 +9,7 @@ import Hero from "./components/Hero"
 import Experience from "./components/Experience"
 import Projects from "./components/Projects"
 import Awards from "./components/Awards"
+import Volunteering from "./components/Volunteering"
 import Connect from "./components/Connect"
 
 const container = {
@@ -36,6 +37,7 @@ const App = () => {
         <Experience />
         <Projects />
         <Awards />
+        <Volunteering />
         <Connect />
       </motion.div>
 

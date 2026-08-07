@@ -3,6 +3,7 @@ const links = [
   { href: "#experience", label: "Experience" },
   { href: "#projects", label: "Projects" },
   { href: "#awards", label: "Awards" },
+  { href: "#volunteering", label: "Volunteering" },
   { href: "#connect", label: "Connect" },
 ]
 
