@@ -25,9 +25,6 @@ const Hero = () => {
           <h1 className="landing-name">
             Admire<br />Madyira
           </h1>
-          <p className="landing-tagline">
-            Software Engineer. Systems Builder. ML Practitioner.
-          </p>
           <p className="landing-bio">
             Software Engineer at Microsoft working on Build, Release, Update, and
             Deployment infrastructure for Copilot &amp; Microsoft Edge. Previously
