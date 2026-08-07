@@ -138,13 +138,25 @@ a { color: inherit; text-decoration: none; transition: color 160ms ease; }
 }
 
 .hero-vcard li {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
   font-size: 0.78rem;
   color: var(--text-muted);
   word-break: break-word;
 }
 
-.hero-vcard a { color: var(--text-muted); font-weight: 600; }
+.hero-vcard li svg { flex-shrink: 0; color: var(--text-muted); }
+
+.hero-vcard a {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
 .hero-vcard a:hover { color: var(--accent); }
+.hero-vcard a:hover svg { color: var(--accent); }
 
 .landing-hero__text { display: grid; gap: 0.9rem; }
 

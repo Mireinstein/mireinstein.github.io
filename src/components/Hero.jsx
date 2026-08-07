@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import { BuildingIcon, PinIcon, MailIcon, LinkIcon, LinkedInIcon } from "./icons"
 
 const item = {
   hidden: { opacity: 0, y: 20 },
@@ -22,20 +23,29 @@ const Hero = () => {
           <ul className="hero-vcard">
             <li>
               <a href="https://github.com/microsoft" target="_blank" rel="noopener noreferrer">
+                <BuildingIcon />
                 @microsoft
               </a>
             </li>
-            <li>Redmond, WA</li>
             <li>
-              <a href="mailto:admiretmadyira@gmail.com">admiretmadyira@gmail.com</a>
+              <PinIcon />
+              Redmond, WA
+            </li>
+            <li>
+              <a href="mailto:admiretmadyira@gmail.com">
+                <MailIcon />
+                admiretmadyira@gmail.com
+              </a>
             </li>
             <li>
               <a href="https://admiremadyira.com/" target="_blank" rel="noopener noreferrer">
+                <LinkIcon />
                 admiremadyira.com
               </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/admire-madyira/" target="_blank" rel="noopener noreferrer">
+                <LinkedInIcon />
                 in/admire-madyira
               </a>
             </li>
