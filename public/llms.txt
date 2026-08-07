@@ -1,0 +1,27 @@
+# Admire Madyira
+
+> Software Engineer at Microsoft AI, working on release, update, and deployment infrastructure for Copilot and Microsoft Edge. Previously worked on C++ browser performance/latency optimization for Edge, and on applied ML research into Copilot safety and robustness to adversarial attacks (e.g. prompt injection).
+
+Based in Redmond, WA. BA Computer Science, Amherst College. MS Computer Science (Machine Learning), Columbia University, in progress.
+
+## Experience
+
+- Software Engineer, Microsoft AI (Aug 2025–Present) — release/deployment infrastructure for Copilot and Edge.
+- Software Engineer Intern, Generative AI, Microsoft (May–Aug 2024) — Copilot reliability, security, and safety research.
+- Software Engineer Intern, Search Optimization, Microsoft (May–Aug 2023) — Edge browser search optimization and latency reduction in C++.
+- Machine Learning Engineer Intern, Columbia University (Jun–Aug 2022) — reinforcement learning research for self-driving cars.
+- Full Stack Engineer Apprentice, Google Africa Developer Scholarship (Aug 2021–May 2022).
+
+## Projects
+
+- QuantIQ (https://github.com/Mireinstein/QuantIQ) — low-latency C++ limit order book, Python backtesting engine, RAG-based signal research pipeline.
+- TenantIQ (https://github.com/Mireinstein/TenantIQ) — AI agent for leasing offices automating tenant pre-qualification, listing matching, and viewing scheduling.
+- Grey Parrot (https://github.com/Mireinstein/Grey-Parrot) — Chrome extension for live translated subtitles on any video.
+- Agnostic LLM Watermarking (https://github.com/Mireinstein/Agnostic-LLM-Watermarking) — research on prompt-based and token-level watermarking for LLM output.
+
+## Links
+
+- Website: https://admiremadyira.com/
+- GitHub: https://github.com/Mireinstein
+- LinkedIn: https://www.linkedin.com/in/admire-madyira/
+- Email: admiretmadyira@gmail.com
