@@ -43,7 +43,12 @@ const Connect = () => {
         >
           GitHub
         </a>
-        <a href="#" className="landing-cta landing-cta--secondary" onClick={(e) => e.preventDefault()}>
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="landing-cta landing-cta--secondary"
+        >
           Resume
         </a>
       </div>

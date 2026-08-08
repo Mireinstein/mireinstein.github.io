@@ -46,7 +46,7 @@ const App = () => {
         <div className="landing-footer__links">
           <a href="https://github.com/Mireinstein" target="_blank" rel="noopener noreferrer">GitHub</a>
           <a href="https://www.linkedin.com/in/admire-madyira/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="#" onClick={(e) => e.preventDefault()}>Resume</a>
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
       </footer>
     </div>
