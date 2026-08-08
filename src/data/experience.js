@@ -33,7 +33,7 @@ export const experience = [
   },
   {
     period: "May 2023 – Aug 2023",
-    title: "Software Engineer Intern",
+    title: "Explore Intern",
     org: "Microsoft",
     location: "Redmond, Washington, United States",
     bullets: [
