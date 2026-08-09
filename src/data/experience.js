@@ -26,14 +26,14 @@ export const experience = [
   },
   {
     period: "May 2024 – Aug 2024",
-    title: "Software Engineer Intern",
+    title: "Machine Learning Engineer Intern",
     org: "Microsoft",
     location: "Redmond, Washington, United States",
     bullets: [
       "Designed and shipped a novel LLM council framework for model vulnerability detection, achieving ~90% accuracy in identifying prompt-injection, data-leakage, and jailbreak exploits in Copilot; delivered one month ahead of deadline.",
       "Requested a second internship project and built an AI agent for bug-fixing and browser crash analysis before the prevalence of AI coding tools, reducing engineers' triage time by ~50% and securing a return offer before the internship ended.",
     ],
-    tags: ["Scikit-Learn", "TypeScript", "Python", "Retrieval-Augmented Generation (RAG)", "Data Ingestion", "SQL", "Machine Learning", "Artificial Intelligence (AI)", "Prompt Engineering"],
+    tags: ["Scikit-Learn", "TypeScript", "Python", "Retrieval-Augmented Generation (RAG)", "Data Ingestion", "Machine Learning", "Artificial Intelligence (AI)", "Prompt Engineering", "SQL", "MLOps", "PyTorch", "Docker", "Terraform", "CI/CD", "Azure", "LoRA", "LLMOps", "LLM", "Transformers"],
   },
   {
     period: "May 2023 – Aug 2023",
