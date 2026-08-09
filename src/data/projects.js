@@ -2,8 +2,8 @@ export const projects = [
   {
     title: "QuantIQ",
     description:
-      "Low-latency C++ limit order book paired with a Python backtesting engine and a RAG-based signal research pipeline.",
-    tags: ["C++", "Python", "scikit-learn", "Backtesting", "RAG", "Market Microstructure"],
+      "ML pipeline for systematic trading — scikit-learn + PyTorch models (0.58 AUC, walk-forward validated) and a LoRA-fine-tuned transformer for sentiment scoring — containerized with Docker and gated by an MLOps evaluation harness with live paper-trading execution.",
+    tags: ["Python", "PyTorch", "scikit-learn", "MLflow", "Docker", "LLM Fine-Tuning", "MLOps"],
     url: "https://github.com/Mireinstein/QuantIQ",
   },
   {
