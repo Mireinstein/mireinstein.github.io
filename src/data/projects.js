@@ -7,13 +7,6 @@ export const projects = [
     url: "https://github.com/Mireinstein/QuantML",
   },
   {
-    title: "TenantIQ",
-    description:
-      "AI agent for leasing offices: automated tenant pre-qualification, listing matching, and viewing scheduling end-to-end.",
-    tags: ["TypeScript", "Node.js", "Express", "OpenAI", "Zod"],
-    url: "https://github.com/Mireinstein/TenantIQ",
-  },
-  {
     title: "Grey Parrot",
     description:
       "Chrome extension that puts live, translated subtitles on any video in the browser — YouTube, TikTok, anything.",
