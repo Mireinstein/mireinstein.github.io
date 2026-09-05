@@ -16,8 +16,8 @@ export const projects = [
   {
     title: "Agnostic LLM Watermarking",
     description:
-      "Research on prompt-based and token-level watermarking for LLM output, evaluating detection robustness against paraphrasing attacks.",
-    tags: ["Python", "NLP", "Deep Learning", "LLM Fine-Tuning", "MLOps"],
+      "Co-built a study comparing prompt-level and token-level LLM watermarking — semantic prompt constraints against a greenlist reimplementation — across ~2,000 responses from GPT-3.5-Turbo and Llama-2-7B, with RoBERTa detectors recovering 86% of prompt-based watermarks against 66% of token-level ones.",
+    tags: ["Python", "PyTorch", "Hugging Face", "Transformers", "scikit-learn", "NLP", "LLM Fine-Tuning", "RoBERTa"],
     url: "https://github.com/Mireinstein/Agnostic-LLM-Watermarking",
   },
 ]
