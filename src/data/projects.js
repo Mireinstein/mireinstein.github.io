@@ -1,10 +1,10 @@
 export const projects = [
   {
-    title: "QuantML",
+    title: "QuantIQ",
     description:
-      "ML pipeline for systematic trading — scikit-learn + PyTorch models selected by held-out backtest Sharpe, autonomously paper-trading daily against live market data, with CI/CD (GitHub Actions tests + Docker smoke tests), daily auto-retraining gated by a quality-regression harness, live inference monitoring (latency, drift), a multi-turn LLM trading assistant, and a RAG sentiment layer (TF-IDF + embeddings + real news). Includes a LoRA-fine-tuned transformer for sentiment scoring. Deployed to Azure Container Apps via Terraform.",
-    tags: ["Python", "PyTorch", "scikit-learn", "FastAPI", "MLflow", "Docker", "GitHub Actions", "MLOps", "LLM Agents", "LLM Fine-Tuning", "Terraform", "Azure"],
-    url: "https://github.com/Mireinstein/QuantML",
+      "Algorithmic trading bot in C++20 — runs strategies against an Alpaca paper account, holding a target position and reconciling against the broker so it only trades the difference, which is what lets it survive a restart or a rejected order. One code path replays years of history in milliseconds or trades live, over a multithreaded market-data pipeline with a drawdown kill switch. The whole system runs offline against a mock venue, and a published dashboard compares every strategy against buy-and-hold.",
+    tags: ["C++20", "Concurrency", "CMake", "Catch2", "Alpaca API", "libcurl", "GitHub Actions", "Doxygen"],
+    url: "https://github.com/Mireinstein/QuantIQ",
   },
   {
     title: "Grey Parrot",

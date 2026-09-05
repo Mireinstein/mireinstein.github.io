@@ -14,7 +14,7 @@ Based in Redmond, WA. BA Computer Science, Amherst College. MS Computer Science 
 
 ## Projects
 
-- QuantIQ (https://github.com/Mireinstein/QuantIQ) — low-latency C++ limit order book, Python backtesting engine, RAG-based signal research pipeline.
+- QuantIQ (https://github.com/Mireinstein/QuantIQ) — C++20 algorithmic trading bot: target-position engine reconciling against live broker state, multithreaded market-data pipeline, historical replay and live Alpaca paper trading on one code path. Dashboard: https://admiremadyira.com/QuantIQ/dashboard.html
 - TenantIQ (https://github.com/Mireinstein/TenantIQ) — AI agent for leasing offices automating tenant pre-qualification, listing matching, and viewing scheduling.
 - Grey Parrot (https://github.com/Mireinstein/Grey-Parrot) — Chrome extension for live translated subtitles on any video.
 - Agnostic LLM Watermarking (https://github.com/Mireinstein/Agnostic-LLM-Watermarking) — research on prompt-based and token-level watermarking for LLM output.
