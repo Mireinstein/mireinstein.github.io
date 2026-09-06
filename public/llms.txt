@@ -16,7 +16,7 @@ Based in Redmond, WA. BA Computer Science, Amherst College. MS Computer Science 
 
 - QuantIQ (https://github.com/Mireinstein/QuantIQ) — C++20 algorithmic trading bot: target-position engine reconciling against live broker state, multithreaded market-data pipeline, historical replay and live Alpaca paper trading on one code path. Dashboard: https://admiremadyira.com/QuantIQ/dashboard.html
 - Grey Parrot (https://github.com/Mireinstein/Grey-Parrot) — Chrome extension for live translated subtitles on any video.
-- Agnostic LLM Watermarking (https://github.com/Mireinstein/Agnostic-LLM-Watermarking) — compares prompt-level and token-level LLM watermarking across ~2,000 generated responses; RoBERTa detectors recover 86% of prompt-based watermarks against 66% of token-level ones.
+- Agnostic LLM Watermarking (https://github.com/Mireinstein/Agnostic-LLM-Watermarking) — compares prompt-level and token-level LLM watermarking across ~6,000 GPT-3.5-Turbo generations; RoBERTa detectors recover 86% of prompt-based watermarks against 66% of token-level ones.
 
 ## Links
 
