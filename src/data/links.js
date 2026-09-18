@@ -11,5 +11,6 @@ export const links = [
   { label: "Awards", source: "LinkedIn", url: `${linkedin}/honors/` },
   { label: "Volunteering", source: "LinkedIn", url: `${linkedin}/volunteering-experiences/` },
   { label: "Education", source: "LinkedIn", url: `${linkedin}/education/` },
+  { label: "Certifications", source: "LinkedIn", url: `${linkedin}/certifications/` },
   { label: "Resume", source: "PDF", url: "/resume.pdf" },
 ]

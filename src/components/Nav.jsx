@@ -1,8 +1,9 @@
 import { links } from "../data/links"
 
+// LinkedIn is where most of the rows already point, so the nav carries GitHub
+// only; both sit in the Connect row regardless.
 const externalLinks = [
   { label: "GitHub", url: "https://github.com/Mireinstein" },
-  { label: "LinkedIn", url: "https://www.linkedin.com/in/admire-madyira/" },
 ]
 
 const Nav = ({ theme, toggle }) => {
