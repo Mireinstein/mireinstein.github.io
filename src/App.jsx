@@ -7,6 +7,7 @@ import useTheme from "./hooks/useTheme"
 import Nav from "./components/Nav"
 import Hero from "./components/Hero"
 import Links from "./components/Links"
+import AskAdmire from "./components/AskAdmire"
 import Connect from "./components/Connect"
 
 const container = {
@@ -34,6 +35,8 @@ const App = () => {
         <Links />
         <Connect />
       </motion.div>
+
+      <AskAdmire />
 
       <footer className="landing-footer">
         <p>&#169; 2026 Admire Madyira</p>
