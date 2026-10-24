@@ -295,56 +295,57 @@ a { color: inherit; text-decoration: none; transition: color 160ms ease; }
   position: absolute;
   top: 7rem;
   left: calc(50% + 440px + 1.5rem);
-  width: 160px;
+  width: 180px;
 }
 
 .ask-avatar--docked {
   position: fixed;
   right: 1.5rem;
   bottom: 1.5rem;
-  width: 60px;
-  height: 60px;
-  justify-content: center;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  box-shadow: 0 8px 24px oklch(0% 0 0 / 0.25);
+  box-shadow: 0 8px 24px oklch(0% 0 0 / 0.3);
 }
-.ask-avatar--docked:hover { border-color: var(--accent); }
-
-.ask-avatar__face { width: 84px; height: 84px; overflow: visible; }
-.ask-avatar--docked .ask-avatar__face { width: 44px; height: 44px; }
-
-.ask-avatar__head,
-.ask-avatar__hand { fill: oklch(80% 0.14 70); }
-.ask-avatar__eyes { fill: oklch(20% 0.02 50); }
-.ask-avatar__cheek { fill: oklch(70% 0.16 25 / 0.45); }
-.ask-avatar__smile {
-  fill: none;
-  stroke: oklch(20% 0.02 50);
-  stroke-width: 2.4;
-  stroke-linecap: round;
+/* Pulse ring so the docked button keeps drawing the eye */
+.ask-avatar--docked::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid var(--accent);
+  animation: ask-pulse 2.4s ease-out infinite;
+  pointer-events: none;
+}
+@keyframes ask-pulse {
+  0%   { transform: scale(1); opacity: 0.8; }
+  100% { transform: scale(1.6); opacity: 0; }
 }
 
-.ask-avatar__hand {
-  transform-box: view-box;
-  transform-origin: 56px 30px;
-  animation: ask-wave 2.6s ease-in-out infinite;
+.ask-avatar__face {
+  position: relative;
+  display: block;
+  width: 180px;
+  height: 180px;
 }
-.ask-avatar__eyes {
-  transform-box: fill-box;
-  transform-origin: center;
-  animation: ask-blink 5s infinite;
-}
+.ask-avatar__lottie { display: block; width: 100%; height: 100%; }
 
-@keyframes ask-wave {
-  0%, 60%, 100% { transform: rotate(0deg); }
-  10%, 30%      { transform: rotate(-20deg); }
-  20%, 40%      { transform: rotate(14deg); }
+/* Head crop: blow the 500x500 scene up and shift it so the face and waving hand
+   fill the circle. Percentages keep the crop the same at any circle size. */
+.ask-avatar__face--head {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+  background: oklch(93% 0.03 75);
+  border: 2px solid var(--accent);
 }
-@keyframes ask-blink {
-  0%, 94%, 100% { transform: scaleY(1); }
-  97%           { transform: scaleY(0.1); }
+.ask-avatar__face--head .ask-avatar__lottie {
+  position: absolute;
+  width: 266%;
+  height: 266%;
+  left: -70%;
+  top: 0;
 }
 
 .ask-avatar__bubble {
@@ -409,7 +410,7 @@ a { color: inherit; text-decoration: none; transition: color 160ms ease; }
   font-size: 0.9rem;
   font-weight: 700;
 }
-.ask-panel__title .ask-avatar__face { width: 32px; height: 32px; }
+.ask-panel__title .ask-avatar__face { width: 36px; height: 36px; }
 
 .ask-panel__close {
   padding: 0.2rem 0.5rem;

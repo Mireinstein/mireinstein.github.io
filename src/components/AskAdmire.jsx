@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { motion } from "framer-motion"
 
 const CHAT_URL = "https://my-muse-wine.vercel.app"
@@ -35,19 +35,54 @@ const useDocked = () => {
   return docked
 }
 
-const Avatar = () => (
-  <svg viewBox="0 0 72 72" className="ask-avatar__face" aria-hidden="true">
-    <circle cx="32" cy="40" r="24" className="ask-avatar__head" />
-    <g className="ask-avatar__eyes">
-      <circle cx="24" cy="37" r="3.2" />
-      <circle cx="40" cy="37" r="3.2" />
-    </g>
-    <circle cx="18" cy="46" r="3.6" className="ask-avatar__cheek" />
-    <circle cx="46" cy="46" r="3.6" className="ask-avatar__cheek" />
-    <path d="M25 48 q7 6 14 0" className="ask-avatar__smile" />
-    <ellipse cx="62" cy="20" rx="6.5" ry="8" className="ask-avatar__hand" />
-  </svg>
-)
+const WAVES_PER_BURST = 3
+const PAUSE_BETWEEN_BURSTS_MS = 3500
+
+// "Guy waving" by Suhayra Sarwar (LottieFiles, Lottie Simple License), with the
+// mouth redrawn as a smile. `head` crops to the face and waving hand for the
+// small round spots; the crop itself lives in the CSS.
+const Avatar = ({ head = false }) => {
+  const ref = useRef(null)
+
+  useEffect(() => {
+    let anim
+    let timer
+    let cancelled = false
+    const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches
+
+    // Loaded on demand so the player never weighs down the first paint
+    import("lottie-web/build/player/lottie_light").then(({ default: lottie }) => {
+      if (cancelled || !ref.current) return
+      anim = lottie.loadAnimation({
+        container: ref.current,
+        renderer: "svg",
+        loop: true,
+        autoplay: !still,
+        path: "/ask-avatar.json",
+      })
+      // Waving in bursts with a rest in between catches the eye each time it
+      // starts again, where a constant loop fades into the background
+      let waves = 0
+      anim.addEventListener("loopComplete", () => {
+        if (++waves % WAVES_PER_BURST) return
+        anim.pause()
+        timer = setTimeout(() => anim.play(), PAUSE_BETWEEN_BURSTS_MS)
+      })
+    })
+
+    return () => {
+      cancelled = true
+      clearTimeout(timer)
+      anim?.destroy()
+    }
+  }, [])
+
+  return (
+    <span className={`ask-avatar__face ${head ? "ask-avatar__face--head" : ""}`} aria-hidden="true">
+      <span ref={ref} className="ask-avatar__lottie" />
+    </span>
+  )
+}
 
 const AskAdmire = () => {
   const docked = useDocked()
@@ -76,11 +111,20 @@ const AskAdmire = () => {
           className={`ask-avatar ${docked ? "ask-avatar--docked" : "ask-avatar--hero"}`}
           aria-label="Ask me anything about Admire"
           title="Ask me anything about Admire"
-          transition={{ type: "spring", stiffness: 260, damping: 30 }}
+          initial={{ opacity: 0, scale: 0.6, y: 24 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ type: "spring", stiffness: 260, damping: 20, delay: 0.5 }}
         >
-          <Avatar />
+          <Avatar head={docked} />
           {!docked && (
-            <span className="ask-avatar__bubble">Hi! Ask me anything about Admire</span>
+            <motion.span
+              className="ask-avatar__bubble"
+              initial={{ opacity: 0, scale: 0.8, y: -6 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{ type: "spring", stiffness: 300, damping: 18, delay: 1.3 }}
+            >
+              Hi! Ask me anything about Admire
+            </motion.span>
           )}
         </motion.button>
       )}
@@ -92,7 +136,7 @@ const AskAdmire = () => {
       >
         <div className="ask-panel__header">
           <span className="ask-panel__title">
-            <Avatar />
+            <Avatar head />
             Ask Admire
           </span>
           <button
